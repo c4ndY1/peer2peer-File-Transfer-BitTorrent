@@ -123,30 +123,9 @@ Python version: 3.8+ (tested on modern CPython). Earlier versions may work but a
 ```
 
 ## 5. Requirements / Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/c4ndY1/peer2peer-File-Transfer-BitTorrent.git
-cd peer2peer-File-Transfer-BitTorrent
-```
-
-2. Create & activate a virtual environment (recommended):
-```bash
-python3 -m venv .venv
-source .venv/bin/activate      # Linux/macOS
-# On Windows: .venv\Scripts\activate
-python -m pip install --upgrade pip
-```
-
-3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 pip install PyQt5              # Not pinned in requirements.txt
-```
-
-Linux package hints (if PyQt5 wheel fails):
-```bash
-sudo apt-get install -y python3-pyqt5 libqt5gui5 libqt5widgets5
 ```
 
 ## 6. Running the Local Tracker (optional but needed for bundled sample torrent)
